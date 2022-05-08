@@ -82,7 +82,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         y= y1;
     function animateLineDrawing() {
         const animationLoop= requestAnimationFrame(animateLineDrawing);
-        c.clearRect(0,0,608,608)
+        c.clearRect(0,0,200,200)
         c.beginPath();
         c.moveTo(x1,y1)
         c.lineTo(x,y)
