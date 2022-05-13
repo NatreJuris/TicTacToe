@@ -42,7 +42,7 @@ function checkWinConditions() {
     else if (arrayIncludes('0X', '3X', '6X')) {drawWinLine(33, 17, 33, 186)}
     else if (arrayIncludes('1X', '4X', '7X')) {drawWinLine(101, 17, 101, 186)}
     else if (arrayIncludes('2X', '5X', '8X')) {drawWinLine(169, 17, 169, 186)}
-    else if (arrayIncludes('6X', '4X', '2X')) {drawWinLine(33, 169, 170, 30)}
+    else if (arrayIncludes('6X', '4X', '2X')) {drawWinLine(23, 139, 130, 20)}
     else if (arrayIncludes('0X', '4X', '8X')) {drawWinLine(33, 33, 173, 173)}
     else if (arrayIncludes('0O', '1O', '2O')) {drawWinLine(17, 33, 186, 33)}
     else if (arrayIncludes('3O', '4O', '5O')) {drawWinLine(17, 101, 186, 101)}
